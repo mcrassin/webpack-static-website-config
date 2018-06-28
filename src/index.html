@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!--refresh document every 30 sec-->
+    <!--<meta http-equiv="refresh" content="30">-->
+
+    <title>Test webpack</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="Home page for our webpack example projet">
+    <meta name="keywords" content="webpack,bootstrap,jquery,font-awesome">
+    <meta name="author" content="Mathieu CRASSIN">
+
+</head>
+<body>
+    <%= require('./partials/header.html')({title: 'Home Page'}) %>
+
+    <!-- Begin page content -->
+    <main role="main" class="container">
+        <h1 class="mt-5">Bootstrap 4 simple example.</h1>
+
+        <div class="alert alert-primary" role="alert">
+            Bootstrap style loaded
+        </div>
+
+        <div class="jquery-insert-point">jQuery not loaded</div>
+
+        <p class="example-class">Image loaded:</p>
+        <img src="images/CMS_Creative_164657191_Kingfisher.jpg" alt="Yeah" width="256">
+
+        <p>Font Awesome works: <i class="fa fa-plus-square"></i></p>
+
+    </main>
+
+    <%= require('./partials/footer.html')() %>
+
+</body>
+</html>

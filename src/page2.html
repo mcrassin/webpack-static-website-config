@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!--refresh document every 30 sec-->
+    <!--<meta http-equiv="refresh" content="30">-->
+
+    <title>Test webpack</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="Home page for our webpack example projet">
+    <meta name="keywords" content="webpack,bootstrap,jquery,font-awesome">
+    <meta name="author" content="Mathieu CRASSIN">
+
+</head>
+<body>
+<%= require('./partials/header.html')({title: 'Home Page'}) %>
+
+<!-- Begin page content -->
+<main role="main" class="container">
+    <h1 class="mt-5">Page 2.</h1>
+
+</main>
+
+<%= require('./partials/footer.html')() %>
+
+</body>
+</html>
