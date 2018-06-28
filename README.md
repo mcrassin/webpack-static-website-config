@@ -24,7 +24,7 @@ All dependencies can be downloaded and included from npm/yarn.
 * https://github.com/emaphp/underscore-template-loader
 
 ## Command lines 
-`npm i`
+`yarn install`
 ### production (minify JS, CSS, HTML, compress images)
 `yarn build`
 ### start development server (start web server, deploy your site, hot module reload)
